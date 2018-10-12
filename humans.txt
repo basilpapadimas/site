@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Bill Papadimas -- everything -- @goldhordas sometimes
+
+# THANKS
+
+    The Publicity Department of Turkish Airlines
+    Albert Hofmann
+    html5-boilerplate
+    Linus Torvalds, Richard Stallman and the entire FLOSS community
+    The cute half Canadian girl on my mind right now.
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
