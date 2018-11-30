@@ -96,31 +96,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-div{
+div {
   text-align: center;
 }
-.bar{
+
+.bar {
   color: #808080;
   font-size: 12vw;
   text-decoration: none;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.title{
+.title {
   text-transform: uppercase;
   font-size: 4vw;
   margin-bottom: 0px;
   color: black;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-.date{
+
+.date {
   font-size: 2vw;
   color: grey;
   margin-top: 1vw;
   font-weight: normal;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-.text{
+
+.text {
   font-size: 1.5vw;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
