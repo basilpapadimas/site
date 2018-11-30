@@ -103,9 +103,27 @@ div{
   color: #808080;
   font-size: 12vw;
   text-decoration: none;
-  font-family: "Roboto", Arial, Helvetica, sans-serif
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+.title{
+  text-transform: uppercase;
+  font-size: 4vw;
+  margin-bottom: 0px;
+  color: black;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.date{
+  font-size: 2vw;
+  color: grey;
+  margin-top: 1vw;
+  font-weight: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.text{
+  font-size: 1.5vw;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
 
 .monstrousp {
   font-family: 'Ubuntu Mono', monospace, 'Courier New', Courier;
