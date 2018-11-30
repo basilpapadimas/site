@@ -103,14 +103,17 @@ div{
   color: #808080;
   font-size: 12vw;
   text-decoration: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif
 }
+
+
 .monstrousp {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace, 'Courier New', Courier;
   font-size: 10vw;
 }
 
 .monstrousa {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 12vw;
 }
 
