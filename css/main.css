@@ -96,18 +96,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-p {
+.bar{
+  color: #808080;
+  font-size: 12vw;
+  text-decoration: none;
+}
+.monstrousp {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 10vw;
 }
 
-a {
+.monstrousa {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 12vw;
 }
 
-a {
+.monstrousa {
   -webkit-animation: color-change 4s infinite;
   -moz-animation: color-change 4s infinite;
   -o-animation: color-change 4s infinite;
