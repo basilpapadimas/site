@@ -134,6 +134,7 @@ div {
 }
 
 .monstrousa {
+  text-decoration: none;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 12vw;
 }
