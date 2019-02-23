@@ -101,11 +101,6 @@ div,
   text-align: center;
 }
 
-.container {
-  font-family: 'Ubuntu Mono', monospace, 'Courier New', Courier;
-  font-size: 10vw;
-}
-
 a,
 p {
   text-transform: lowercase;
