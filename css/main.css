@@ -96,40 +96,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-div {
+div,
+.container {
   text-align: center;
 }
 
-a, p {
+.container {
+  font-family: 'Ubuntu Mono', monospace, 'Courier New', Courier;
+  font-size: 10vw;
+}
+
+a,
+p {
   text-transform: lowercase;
-}
-
-.bar {
-  color: #808080;
-  font-size: 12vw;
-  text-decoration: none;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
-.title {
-  text-transform: uppercase;
-  font-size: 26px;
-  margin-bottom: 0px;
-  color: black;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
-.date {
-  font-size: 16px;
-  color: grey;
-  margin-top: 1vw;
-  font-weight: normal;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
-.text {
-  font-size: 18px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .monstrousp {
