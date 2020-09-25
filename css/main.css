@@ -1,5 +1,6 @@
-/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -83,277 +84,9 @@ textarea {
 }
 
 /* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ==========================================================================
    Author's custom styles
    ========================================================================== */
-div,
-.container {
-  text-align: center;
-}
 
-a,
-p {
-  text-transform: lowercase;
-}
-
-.monstrousp {
-  font-family: 'Ubuntu Mono', monospace, 'Courier New', Courier;
-  font-size: 10vw;
-}
-
-.monstrousa {
-  text-decoration: none;
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 12vw;
-}
-
-.monstrousa {
-  -webkit-animation: color-change 4s infinite;
-  -moz-animation: color-change 4s infinite;
-  -o-animation: color-change 4s infinite;
-  -ms-animation: color-change 4s infinite;
-  animation: color-change 4s infinite;
-}
-
-@-webkit-keyframes color-change {
-  0% {
-    color: #FF0000;
-  }
-
-  10% {
-    color: #E2571E;
-  }
-
-  20% {
-    color: #FF7F00;
-  }
-
-  30% {
-    color: #FFFF00;
-  }
-
-  40% {
-    color: #00FF00;
-  }
-
-  50% {
-    color: #96bf33;
-  }
-
-  60% {
-    color: #0000FF;
-  }
-
-  70% {
-    color: #4B0082;
-  }
-
-  80% {
-    color: #8B00FF;
-  }
-
-  90% {
-    color: #ffffff;
-  }
-
-  100% {
-    color: #000000;
-  }
-}
-
-@-moz-keyframes color-change {
-  0% {
-    color: #FF0000;
-  }
-
-  10% {
-    color: #E2571E;
-  }
-
-  20% {
-    color: #FF7F00;
-  }
-
-  30% {
-    color: #FFFF00;
-  }
-
-  40% {
-    color: #00FF00;
-  }
-
-  50% {
-    color: #96bf33;
-  }
-
-  60% {
-    color: #0000FF;
-  }
-
-  70% {
-    color: #4B0082;
-  }
-
-  80% {
-    color: #8B00FF;
-  }
-
-  90% {
-    color: #ffffff;
-  }
-
-  100% {
-    color: #000000;
-  }
-}
-
-@-ms-keyframes color-change {
-  0% {
-    color: #FF0000;
-  }
-
-  10% {
-    color: #E2571E;
-  }
-
-  20% {
-    color: #FF7F00;
-  }
-
-  30% {
-    color: #FFFF00;
-  }
-
-  40% {
-    color: #00FF00;
-  }
-
-  50% {
-    color: #96bf33;
-  }
-
-  60% {
-    color: #0000FF;
-  }
-
-  70% {
-    color: #4B0082;
-  }
-
-  80% {
-    color: #8B00FF;
-  }
-
-  90% {
-    color: #ffffff;
-  }
-
-  100% {
-    color: #000000;
-  }
-}
-
-@-o-keyframes color-change {
-  0% {
-    color: #FF0000;
-  }
-
-  10% {
-    color: #E2571E;
-  }
-
-  20% {
-    color: #FF7F00;
-  }
-
-  30% {
-    color: #FFFF00;
-  }
-
-  40% {
-    color: #00FF00;
-  }
-
-  50% {
-    color: #96bf33;
-  }
-
-  60% {
-    color: #0000FF;
-  }
-
-  70% {
-    color: #4B0082;
-  }
-
-  80% {
-    color: #8B00FF;
-  }
-
-  90% {
-    color: #ffffff;
-  }
-
-  100% {
-    color: #000000;
-  }
-}
-
-@keyframes color-change {
-  0% {
-    color: #FF0000;
-  }
-
-  10% {
-    color: #E2571E;
-  }
-
-  20% {
-    color: #FF7F00;
-  }
-
-  30% {
-    color: #FFFF00;
-  }
-
-  40% {
-    color: #00FF00;
-  }
-
-  50% {
-    color: #96bf33;
-  }
-
-  60% {
-    color: #0000FF;
-  }
-
-  70% {
-    color: #4B0082;
-  }
-
-  80% {
-    color: #8B00FF;
-  }
-
-  90% {
-    color: #ffffff;
-  }
-
-  100% {
-    color: #000000;
-  }
-}
 
 /* ==========================================================================
    Helper classes
@@ -363,7 +96,8 @@ p {
  * Hide visually and from screen readers
  */
 
-.hidden {
+.hidden,
+[hidden] {
   display: none !important;
 }
 
@@ -376,34 +110,34 @@ p {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.visuallyhidden {
+.sr-only {
   border: 0;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px;
   white-space: nowrap;
+  width: 1px;
   /* 1 */
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element
+ * Extends the .sr-only class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
   overflow: visible;
   position: static;
-  width: auto;
   white-space: inherit;
+  width: auto;
 }
 
 /*
@@ -426,15 +160,13 @@ p {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+.clearfix::before,
+.clearfix::after {
   content: " ";
-  /* 1 */
   display: table;
-  /* 2 */
 }
 
-.clearfix:after {
+.clearfix::after {
   clear: both;
 }
 
@@ -464,12 +196,11 @@ p {
 @media print {
 
   *,
-  *:before,
-  *:after {
-    background: transparent !important;
+  *::before,
+  *::after {
+    background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -479,21 +210,20 @@ p {
     text-decoration: underline;
   }
 
-  a[href]:after {
+  a[href]::after {
     content: " ("attr(href) ")";
   }
 
-  abbr[title]:after {
+  abbr[title]::after {
     content: " ("attr(title) ")";
   }
 
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
     content: "";
   }
 
@@ -508,10 +238,9 @@ p {
   }
 
   /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
   thead {
     display: table-header-group;
   }

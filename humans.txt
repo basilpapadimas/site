@@ -3,16 +3,11 @@
 
 # TEAM
 
-    Bill Papadimas -- everything -- @goldhordas sometimes
+    <name> -- <role> -- <twitter>
 
 # THANKS
 
-    The Publicity Department of Turkish Airlines
-    Albert Hofmann
-    html5-boilerplate
-    Linus Torvalds, Richard Stallman and the entire FLOSS community
-    The cute half Canadian girl on my mind right now.
-
+    <name>
 
 # TECHNOLOGY COLOPHON
 
